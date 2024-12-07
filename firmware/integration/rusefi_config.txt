@@ -197,8 +197,8 @@ struct_no_prefix engine_configuration_s
 
 #define CRANKING_ENRICH_COUNT 6
 
-#define IGN_LOAD_COUNT 32
-#define IGN_RPM_COUNT 32
+#define IGN_LOAD_COUNT 16
+#define IGN_RPM_COUNT 16
 
 #define DIGIPOT_COUNT 4
 #define TRIGGER_SIMULATOR_PIN_COUNT 2
