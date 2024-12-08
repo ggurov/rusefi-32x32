@@ -40,9 +40,6 @@ void setHondaObd1() {
   // ECU does not control main relay
   engineConfiguration->mainRelayPin = Gpio::Unassigned;
 
-#ifdef HW_HELLEN_UAEFI
-  cannedignitionTable();
-#endif // HW_HELLEN_UAEFI
 
 	strcpy(engineConfiguration->gpPwmNote[0], "VTC");
 	gppwm_channel *vtcControl = &engineConfiguration->gppwm[0];
